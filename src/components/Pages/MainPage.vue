@@ -68,7 +68,7 @@ export default {
 
 .logo {
   margin-left: -7.5em;
-  margin-top: -3em;
+  margin-top: -3.5em;
 }
 
 .tableBlock {
