@@ -4,7 +4,6 @@
       <div class="CRM" style="color: #168FFF; font-size: 18px; text-align: left; margin-left: 15px; margin-top: -30px;"><strong>CRM</strong> <ins>Рекламное агентство "Вектор"</ins></div>
       <MyDropTables v-bind:value="TableValue" @input="TableValue = $event.target.value"></MyDropTables>
       <MyButton class="btn" @click="referToTheTable">Применить поиск</MyButton>
-      <MyButton class="btn">Внести новые данные</MyButton>
     </div>
     <div class="tableBlock">
       <div class="contentblock">
@@ -68,14 +67,6 @@ export default {
 
 .logo {
   margin-left: -7.5em;
-  margin-top: -3.5em;
-}
-
-.tableBlock {
-  margin-top: -13em;
-  margin-left: 22em;
-  padding-top: 13em;
-  height: 51em;
-  border-left: 2px solid black;
+  margin-top: -3em;
 }
 </style>
