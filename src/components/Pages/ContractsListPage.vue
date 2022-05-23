@@ -78,6 +78,7 @@ export default {
   margin-left: 25%;
   margin-top: -12%;
 }
+
 .leftBlock {
   display: flex;
   flex-direction: column;
