@@ -1,5 +1,4 @@
 <template>
-  <div class="block">
     <div class="leftBlock">
       <div class="CRM" style="color: #168FFF; font-size: 18px; text-align: left; margin-left: 15px; margin-top: -30px;"><strong>CRM</strong> <ins>Рекламное агентство "Вектор"</ins></div>
       <MyDropTables v-bind:value="TableValue" @input="TableValue = $event.target.value"></MyDropTables>
@@ -13,7 +12,6 @@
       <img class="logo" src='@/components/UI/LogoMain.png'>
     </div>
     </div>
-  </div>
 </template>
 
 <script>
