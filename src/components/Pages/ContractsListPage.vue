@@ -6,6 +6,7 @@
     <MyButton class="btn">Добавить запись</MyButton>
     <img class="logo" src='@/components/UI/LogoMain.png'>
   </div>
+  <div class="border-line"></div>
   <div class="Table">
     <MyTable>
       <thead>
